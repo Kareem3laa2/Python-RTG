@@ -8,17 +8,18 @@ sentence = file.readline()
 
 # E-mails Extraction
 
-# emails_pattern = re.compile('[a-zA-Z0-9_.-]+@[a-zA-Z-]+\.[a-zA-Z]+')
-# email_matches = emails_pattern.finditer(sentence)
-# for match in email_matches:
-# emails.append(match)
+emails_pattern = re.compile('[a-zA-Z0-9_.-]+@[a-zA-Z-]+\.[a-zA-Z]+')
+email_matches = emails_pattern.finditer(sentence)
+for match in email_matches:
+    emails.append(match)
 
 # FullNames Extraction
 
-# fullName_pattern = re.compile('[A-Z]\w+\s[A-Z]\w+')
-# fullName_matches = fullName_pattern.finditer(sentence)
-# for match in fullName_matches:
-#         fullNames.append(match)
+fullName_pattern = re.compile('[A-Za-z]\w+\s[A-Za-z]\w+')
+fullName_matches = fullName_pattern.finditer(sentence)
+for match in fullName_matches:
+    fullNames.append(match)
+print(fullNames)
 
 # phoneNumber Extraction
 
