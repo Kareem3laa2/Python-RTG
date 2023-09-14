@@ -13,7 +13,7 @@ $Independent Samples T-Test$:
 - Used to compare means between two independent groups
   (e.g., comparing the test scores of two different groups of students).
 
-  $ Paired Samples T-Test $ :
+$Paired Samples T-Test$ :
 
 - Used to compare means of paired or matched data
   (e.g., before and after measurements on the same subjects).
@@ -24,11 +24,11 @@ $Independent Samples T-Test$:
 
 ## Regression Analysis:
 
-- $ Linear Regression $: Used to model the relationship between a dependent variable and one or more independent variables.
+- $Linear Regression$: Used to model the relationship between a dependent variable and one or more independent variables.
 
-- $ Logistic Regression $: Used when the dependent variable is binary (e.g., yes/no, success/failure) and you want to model the probability of an event occurring.
+- $Logistic Regression$: Used when the dependent variable is binary (e.g., yes/no, success/failure) and you want to model the probability of an event occurring.
 
-- $ Multiple Regression $: Used when there are multiple independent variables that may affect a dependent variable.
+- $Multiple Regression$: Used when there are multiple independent variables that may affect a dependent variable.
 
 ## What is the P-Value ? :
 
